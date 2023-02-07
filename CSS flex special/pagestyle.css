@@ -1,0 +1,104 @@
+
+@import ("https://fonts.google.com")
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    border-bottom: 2px solid black;
+    padding: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 10px;
+    align-items: center;
+    /* this is content space  */
+    gap: 30px;
+}
+
+.brand{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav{
+    
+    /* border: 2px solid black; */
+    padding: 10px;
+    /* this is fixed content width  */
+    flex-grow: 1;
+    /* for .nav-link flex-grow  */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center ;
+    /* this is content space  */
+    gap: 10px;
+    /* height: 300px; */
+}
+.nav-link{
+    border-bottom: 2px solid black;
+    text-decoration: none;
+    color: black;
+    /* flex-grow: 1; */
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.nav-link.active{
+    background-color: #000000;
+    color: white;
+}
+/* this css special selector  */
+/* .nav-link:nth-child(4){
+    flex-grow: 3;
+} */
+/* .nav-link.active{
+    align-self: stretch;
+} */
+.menu{
+    display: none;
+   
+}
+@media screen and (max-width:780px){
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border: 0px solid black;
+        
+        
+    }
+    nav{
+        display: none;
+        
+    }
+    .menu{
+        display: block;
+        border: 2px solid black;
+        padding:23px;
+        border: 2px solid black;
+        display: flex;
+        align-self: stretch;
+        align-items: center;
+        font-size: 20px;
+        background-color: transparent;
+    }
+    nav.open{
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: stretch;
+        border: 2px solid black;
+        
+    }
+    .nav-link{
+        border: 2px solid black;
+        width: auto;
+    }
+   
+}

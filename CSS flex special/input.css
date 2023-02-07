@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+  /* margin: 30px; */
+}
+.form_title {
+}
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
+input{
+  color: rgb(2, 201, 223);
+}
+input:focus {
+  outline: none;
+}
+
+.cvform {
+  border: 1px solid;
+  width: 100%;
+  /* height: 100vh; */
+  padding: 15px;
+  /* margin: 20px; */
+}
+.uname_form {
+}
+.rightname {
+  display: flex;
+  justify-content: space-between;
+}
+.first,
+.middle,
+.last {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: flex-start; */
+}
+.common_form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.address_mix,
+.contact_mix,
+.date_mix {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.address_form {
+}
+.address_com {
+  display: block;
+}
+input#city {
+}
+.alast,
+.Month,
+.Year,
+.phnum {
+  margin-left: 75px;
+}
+.submitbtn {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.submitbtn input,
+button {
+  align-self: stretch;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 50px;
+}
+/* <!-- this is testig accent-color for checkbox  --> */
+#check {
+  accent-color: yellow;
+}
+/* attributes selector or value selector  */
+.afirst input::placeholder {
+  color:rgb(2, 201, 223);
+}

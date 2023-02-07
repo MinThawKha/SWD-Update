@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        body {
+            height: 4000px;
+        }
+
+        /* this is position relative for bom element first page of view  */
+
+        .one {
+            width: 150px;
+            height: 150px;
+            background-color: skyblue;
+            position: relative;
+            top: 50px;
+            left: 200px;
+            text-align: center;
+            /* this is vertical align  */
+            line-height: 150px;  
+        }
+
+        /* this is position relative for bom element first page of view  */
+
+        /* this is position fixed for any document of html  */
+
+        .btn {
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: gray;
+            width: 50px;
+            height: 50px;
+            position: fixed;
+            buttom: 30px;
+            right: 30px;
+        }
+
+        /* this is position fixed for any document of html  */
+
+        .two {
+            width: 200px;
+            height: 200px;
+            background-color: orange;
+        }
+
+        .three {
+            width: 250px;
+            height: 250px;
+            background-color: green;
+        }
+        /* ခြံခတ်လိုက်တာ item ကို  */
+        .box{
+            border: 1px solid black;
+            width: 80%;
+            height: 350px;
+            position: relative;
+        }
+        /* ခြံခတ်လိုက်တာ item ကို  */
+
+        /* this is absolute position, this is apply first page or 1st document when parent is not relative  */
+        .item{
+            width: 50px;
+            height: 50px;
+            background-color: #000;
+            position: absolute;
+            top: 100px;
+            right: 50px;
+        }
+        /* this is absolute position, this is apply first page or 1st document when parent is not relative  */
+        
+        /* this is sticky  */
+        div.sticky{
+            display: flex;
+            justify-content: center;
+            
+            align-items: center;
+            border: 1px solid black;
+            background-color: #eee45671;
+            margin-top: 10px;
+            position: sticky;
+            top: 25px;
+        }
+        div.sticky p{
+            width: 100px;
+            border: 1px solid black;
+            height: 30px;
+            padding: 20px;
+            font-family: sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: underline;
+            text-align: center;
+            line-height: 30px;
+            background-color: black;
+            color: white;
+
+            
+        }
+        /* this is sticky  */
+        </style>
+</head>
+
+<body>
+    <div class="one">i am relative</div>
+    <div class="two">
+    </div>
+    <div class="three"></div>
+    <button class="btn">Fixed</button>
+    <div class="box">
+        <div class="item">
+
+        </div>
+    </div>
+    <div class="sticky"><p>i am sticky</p></div>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea pariatur adipisci laboriosam sed consequuntur. Soluta tempore provident cumque debitis, possimus impedit libero quo distinctio. Debitis quasi doloribus, rerum fugiat quae autem praesentium dignissimos minima tempore ratione quo nisi possimus maxime qui doloremque magnam itaque dolore corrupti inventore sed id molestias assumenda, neque enim. Doloremque necessitatibus nihil esse asperiores illum dolor aspernatur omnis porro accusamus! Ipsam tenetur officia illum sapiente sed eius, aliquam quos. Qui quam dolorum deleniti similique quisquam eos cupiditate tempora laborum ex dolorem laboriosam, expedita temporibus odit, voluptas distinctio, sit reprehenderit amet ratione molestiae aperiam error laudantium perspiciatis in fuga. Unde aspernatur facere nam, distinctio, laboriosam praesentium dolorem est ab quos quas ratione dolores, quia voluptate? Amet soluta molestiae, quidem eaque enim cupiditate quae repellat obcaecati labore eveniet dolorem quod accusantium nisi, ratione hic tenetur. Deleniti maxime tempora aliquid? Voluptate dolores vero distinctio officia dolorem tempora, maiores voluptatum deleniti odio saepe, impedit repudiandae? Assumenda odio nisi sint recusandae vero nemo error, ratione hic eum laboriosam placeat. Dignissimos quo dicta maiores in sit consequuntur est sunt aspernatur! Alias illo, maiores nobis eos exercitationem culpa dolore, ut recusandae atque sed quibusdam vel magni veritatis tenetur! Eligendi, facere dolorum? Vel fugit dicta quibusdam similique cupiditate incidunt possimus? Doloribus, dolorem libero, doloremque laudantium saepe mollitia, voluptas dolores facere ab a soluta repellendus illum? Hic fuga quis magni! Iure beatae porro praesentium, doloribus accusamus animi hic blanditiis commodi ipsam impedit maxime nam velit facilis nesciunt non dolores nulla quam minima, dolore pariatur id delectus eos! Cumque eos necessitatibus veritatis iusto et quisquam quos maxime dolore nihil nostrum reiciendis nemo delectus aliquam nam ut ratione sunt dolores, impedit incidunt facilis illo reprehenderit doloribus sed! Autem voluptate dolore enim doloremque iure accusamus magni sunt perferendis ipsa. Dolore eum veniam reiciendis nam quisquam commodi accusamus ex eligendi asperiores nobis dolores illum ullam sit, totam sed veritatis, laboriosam ratione voluptates suscipit neque modi? Quam natus repellat sunt aperiam voluptatibus, eius error ab reiciendis libero asperiores, amet eligendi quidem praesentium, totam vero. Delectus laboriosam corrupti consequuntur error, reiciendis quae possimus nisi amet minima, vero adipisci voluptatum. Recusandae eum beatae omnis magnam nihil voluptates, nam dignissimos facere, ex explicabo provident qui, officia a minus hic totam accusamus ullam! Maiores alias delectus doloribus. Inventore officiis exercitationem possimus, modi ex minus porro obcaecati beatae facilis atque vitae vel architecto placeat! Autem culpa placeat est maxime ducimus facere at doloremque adipisci! Commodi quos ipsum expedita placeat deleniti, saepe suscipit laboriosam, voluptatum iure quam ipsa magnam nihil rerum distinctio dolor, illum non earum fuga delectus praesentium modi. Deleniti exercitationem aspernatur necessitatibus temporibus id? Minus id iure hic sint atque voluptatem odit accusamus corporis facilis optio? Reiciendis nostrum tempora velit obcaecati vero aut animi ducimus ut, expedita omnis a! Iusto magnam facere accusamus quod sed recusandae? Maxime optio, in reprehenderit eum placeat corporis odit dolor saepe, atque non id doloribus omnis aperiam nostrum. Commodi, iusto accusamus! Labore et cupiditate commodi, illo ullam architecto, velit ex rem tempora aspernatur itaque fuga, facere nostrum culpa esse nobis. Quam nulla quibusdam ipsam harum, tempora sequi optio ad, a libero dicta explicabo nisi animi non nihil totam repellat qui sed obcaecati pariatur. Ut dolore inventore nemo minus, modi tempora similique exercitationem hic itaque ad, molestiae voluptate, magnam accusantium impedit iusto ratione. Deleniti officiis dolor dignissimos, ratione sapiente ipsam, deserunt nulla exercitationem nihil quod molestias quibusdam doloremque rem quos molestiae quisquam modi placeat reprehenderit? Dolores temporibus, quaerat quibusdam, consequuntur, totam fugiat ab dolor culpa quis corporis accusantium et animi voluptatum quos eius iste officiis autem. Quis repudiandae rerum ullam, veniam temporibus qui cum, libero saepe quisquam laudantium corporis iste voluptatem commodi? Doloremque commodi animi libero? Asperiores harum tempore totam exercitationem. Tempore beatae consequuntur aliquid velit nulla quibusdam dolorem ut laudantium labore veritatis animi magnam tempora, cumque quaerat maxime, error praesentium saepe eveniet, odio quae sequi. Accusantium similique tenetur inventore incidunt qui sapiente suscipit ea quod officiis sint, impedit eaque quasi consectetur sequi porro sed repellat delectus aliquid. Nisi quasi recusandae quaerat natus inventore, explicabo repellat tempore, officia iure et sapiente corporis delectus! Earum saepe odio alias reprehenderit quod eius voluptate, autem quisquam. Facere dolorem a inventore amet eum, delectus ea consequatur esse. Expedita itaque, earum nesciunt dolorum quaerat ratione. Officia aliquam, reprehenderit recusandae odit provident sit, magni libero amet id voluptas laborum alias omnis laboriosam at eligendi eum est voluptatibus exercitationem, vel enim. Excepturi a animi itaque temporibus, tempora delectus debitis ab voluptatibus laboriosam eos perspiciatis accusantium at voluptatem quis. Voluptate ratione, perspiciatis ipsam distinctio necessitatibus iusto sint non eum laboriosam porro dignissimos, reprehenderit possimus molestiae in vero illo tenetur eligendi magnam culpa harum. Saepe atque iste totam animi fugit impedit quod unde commodi ad aut, temporibus, iure ipsa corrupti neque incidunt illo nobis. Eaque ad necessitatibus eligendi, quae illo adipisci tempora nam consectetur rerum ab ratione nobis sit!</p>
+</body>
+
+</html>
